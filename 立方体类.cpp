@@ -2,7 +2,6 @@
 
 #include<iostream>
 using namespace std;
-#include<string>
 
 
 class Cube
@@ -31,15 +30,15 @@ int main()
 {
 	Cube c1;
 	double l, w, h;
-	cout << "ÇëÊäÈë³¤" << endl;
+	cout << "è¯·è¾“å…¥é•¿" << endl;
 	cin >> l;
-	cout << "ÇëÊäÈë¿í" << endl;
+	cout << "è¯·è¾“å…¥å®½" << endl;
 	cin >> w;
-	cout << "ÇëÊäÈë¸ß" << endl;
+	cout << "è¯·è¾“å…¥é«˜" << endl;
 	cin >> h;
 	c1.setcube(l, w, h);
-	cout << "±íÃæ»ýÎª£º" << c1.S() << endl;
-	cout << "Ìå»ýÎª£º" << c1.V() << endl;
+	cout << "è¡¨é¢ç§¯ä¸ºï¼š" << c1.S() << endl;
+	cout << "ä½“ç§¯ä¸ºï¼š" << c1.V() << endl;
 	system("pause");
 	return 0;
 }
