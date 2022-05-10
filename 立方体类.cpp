@@ -13,6 +13,18 @@ public:
 		m_w = w;
 		m_h = h;
 	}
+	double getL()
+	{
+		return m_l;
+	}
+	double getW()
+	{
+		return m_w;
+	}
+	double getH()
+	{
+		return m_h;
+	}
 	double S()
 	{
 		return (m_l * m_w + m_l * m_h + m_w * m_h) * 2;
