@@ -53,7 +53,6 @@ public:
 			delete Z;
 			Z = NULL;
 		}
-		cout << "ÊÍ·Å³É¹¦" << endl;
 	}
 	CPU* X;
 	Vid* Y;
