@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 
@@ -54,7 +53,7 @@ public:
 			delete Z;
 			Z = NULL;
 		}
-		cout << "释放成功" << endl;
+		cout << "脢脥路脜鲁脡鹿娄" << endl;
 	}
 	CPU* X;
 	Vid* Y;
